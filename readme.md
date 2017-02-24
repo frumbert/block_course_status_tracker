@@ -5,7 +5,7 @@ This is a Moodle 3.1 block that shows you a list of the courses you are enrolled
 It also works as a configurable auto-enrol plugin for selectable courses, as well as a user management tool for members of the same cohort. It lets a user with a configurable role (/not/ a Moodle role - the users Department) easily flip between being a Teacher and Student in all courses they are enrolled into (this was a client requirement, seems wierd to me, but it's there).
 
 ## Integration
-It expects to work with mpm2moodle, which is a custom version of wp2moodle (https://github.com/frumbert/wp2moodle-moodle) that logs people on from an external portal, and sets these fields on the user record:
+It expects to work with mpm2moodle (https://github.com/frumbert/auth_mpm2moodle), which is a custom version of wp2moodle (https://github.com/frumbert/wp2moodle-moodle) that logs people on from an external portal, and sets these fields on the user record:
 
 - Institution - the company they work for
 - Department - their position in that company
